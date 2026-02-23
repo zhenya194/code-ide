@@ -2,14 +2,13 @@
   "name": "idegemini",
   "version": "1.0.0",
   "description": "",
-  "main": "electron-main.js",
+  "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "server": "node server.js",
     "electron": "wait-on http://localhost:5173 && electron .",
-    "start": "concurrently \"node server.js\" \"vite\" \"npm run electron\""
+    "start": "concurrently \"vite\" \"npm run electron\""
   },
   "repository": {
     "type": "git",
