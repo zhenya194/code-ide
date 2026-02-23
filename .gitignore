@@ -13,6 +13,9 @@ dist-ssr/
 # IDE - JetBrains
 .idea/
 
+# IDE - VS
+.vs/
+
 # OS Files
 .DS_Store
 Thumbs.db
