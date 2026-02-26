@@ -39,3 +39,22 @@ release/
 *.asar
 .electron/
 node_modules/electron/
+
+# C++ / Qt Build Artifacts
+build/
+build-*/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.user
+GeminiGlass
+GeminiGlass.app/
+Makefile
+.qmake.stash
